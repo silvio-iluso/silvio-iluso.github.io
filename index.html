@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/indexStyle.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- FIN JQUERY -->
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- FIN FONT AWESOME -->
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <!-- FIN FUENTES -->
+
+    <!-- COMPONENTS CAROUSEL -->
+
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="./node_modules/swiper/swiper-bundle.min.css"
+  />
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+    <!-- COMPONENTS CAROUSEL -->
+
+    <title>Gift of Sky</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="logo"><a href="#">GIFT OF SKY</a></li>
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="./screens/academy.html">Academy</a></li>
+          <li class="item"><a href="./screens/contacto.html">Contacto</a></li>
+          <!-- <li class="item"><a href="#">Features</a></li>
+          <li class="item"><a href="#">Blog</a></li>
+          <li class="item"><a href="#">Contact</a></li> -->
+          <li class="item button"><a href="./screens/login.html">Log In</a></li>
+          <li class="item button secondary"><a href="#"></a></li>
+          <li class="toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+
+        <!-- CARROUSEL -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./media/banner1.png" alt="Imagen 1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./media/banner2.png" alt="Imagen 2" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./media/banner3.png" alt="Imagen 3" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./media/banner4.png" alt="Imagen 4" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+        <!-- FIN CARROUSEL -->
+
+
+
+
+
+
+
+
+
+
+        <div class="double">
+            <div class="card" style="backdrop-filter: blur(10px); background: rgba(255, 0, 0, 0.2);">
+                <img src="./media/huevo.avif" alt="Imagen 1" class="card-image">
+                <div class="card-content">
+                  <h3 class="card-title">Huevo de principiante</h3>
+                  <p class="card-description">100€ Gift Value</p>
+                  <button style="background-color: red;" class="card-button">Locked</button>
+                </div>
+              </div>
+          
+              <div class="card" style="backdrop-filter: blur(10px); background: rgba(0, 255, 0, 0.2);">
+                <img src="./media/pollito.png" alt="Imagen 2" class="card-image">
+                <div class="card-content">
+                  <h3 class="card-title">Pollito</h3>
+                  <p class="card-description">400€ Gift Value</p>
+                  <button style="background-color: red;" class="card-button">Locked</button>
+                </div>
+              </div>
+
+              <div class="card" style="backdrop-filter: blur(10px); background: rgba(0, 0, 255, 0.2);">
+                <img src="./media/gallo.jpg" alt="Imagen 2" class="card-image">
+                <div class="card-content">
+                  <h3 class="card-title">Gallo</h3>
+                  <p class="card-description">1600€ Gift Value</p>
+                  <button style="background-color: red;" class="card-button">Locked</button>
+                </div>
+              </div>
+
+              <div class="card" style="backdrop-filter: blur(10px); background: rgba(255, 255, 0, 0.2);">
+                <img src="./media/fenix.jfif" alt="Imagen 2" class="card-image">
+                <div class="card-content">
+                  <h3 class="card-title">Leyenda</h3>
+                  <p class="card-description">5000€ Gift Value</p>
+                  <button style="background-color: red;" class="card-button">Locked</button>
+                </div>
+              </div>
+        </div>
+
+
+
+    </main>
+
+    <!-- Repite el mismo patrón para las otras dos tarjetas -->
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
