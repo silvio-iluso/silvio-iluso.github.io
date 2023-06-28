@@ -1,8 +1,9 @@
 body {
     min-height: 100vh;
-    background-image: url(../media/background.jpeg);
+    background-image: url(../media/fondo.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
   }
   
   /* NAVBAR */
